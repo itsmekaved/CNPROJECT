@@ -1,0 +1,76 @@
+/* Colors */
+:root {
+    --primary-color: #6c5ce7;       /* Purple */
+    --secondary-color: #74b9ff;     /* Light Blue */
+    --background-color: #f1f2f6;    /* Soft Gray */
+    --text-color: #2d3436;          /* Dark Gray */
+    --accent-color: #fd79a8;        /* Light Pink */
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 1rem;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Links */
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
